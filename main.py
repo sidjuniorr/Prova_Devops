@@ -8,7 +8,7 @@ def read_root():
 
 @app.get("/square/{x}")
 def square(x: int):
-    return {"result": x * x}  # CORRIGIDO!
+    return {"result": x * x}  #a def da raiz quadrada estava errada
 
 @app.get("/double/{x}")
 def double(x: int):
